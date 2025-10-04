@@ -9,8 +9,7 @@
   programs = {
     git = {
       enable = true;
-      delta.enable = true;
-      diff-so-fancy = true;
+      diff-so-fancy.enable = true;
       userName = "Felipe Cornélio Leite";
       userEmail = "felipecornelio@outlook.com.br";
       extraConfig = {

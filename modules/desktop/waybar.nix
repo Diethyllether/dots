@@ -8,8 +8,8 @@
       {
         layer = "bottom";
         # ouput = "";
-        position = "left";
-        width = 50;
+        position = "top";
+        height = 30;
         modules-left = [
         # "custom/logo"
          "hyprland/workspaces"
@@ -61,8 +61,6 @@
       }
     ];
 
-    style = {
-      
-    };
+    # style = {};
   };
 }
