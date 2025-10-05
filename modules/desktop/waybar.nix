@@ -27,10 +27,12 @@
         "hyprland/workspaces" = {
           format = "{icon}";
           format-icons = {
-            active = "";
-            default = "";
-            empty = "";
-            persistent = "";
+            "1" = "";
+            "2" = "";
+            "3" = "󰺷";
+            "4" = "";
+            "5" = "";
+            "6" = "";
             special = "";
             urgent = "";
           };
@@ -39,24 +41,17 @@
           on-scroll-down = "hyprctl dispatch workspace e-1";
         };
 
+        "hyprland/window" = {
+          format = " {title}";
+          
+        };
+
         "clock" = {
-          timezone = "UTC";
+          timezone = "America/Sao_Paulo";
           interval = 1;
           format = "{:%H:%M:%S}";
           format-alt = "{:%d/%m/%g 𐲨 %A}";
-          tooltip-format = "{calendar}";
-
-          calendar = {
-            mode = "month";
-            on-click-right = "mode";
-            format = {
-              months = "<span color='#DBBC7F'><b>{}</b></span>";
-              days = "<span color='#A7C080'><b>{}</b></span>";
-              weeks = "<span color='#E69875'><b>{}</b></span>";
-              weekdays = "<span color='#E67E80'><b>{}</b></span>";
-              today = "<span color='#83C092'><b>{}</b></span>";
-            };
-          };
+          on-click = ""; # add eww widget
         };
       }
     ];

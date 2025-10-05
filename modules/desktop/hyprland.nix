@@ -151,6 +151,12 @@
 
           "$mainMod, mouse_down, workspace, e+1"
           "$mainMod, mouse_up, workspace, e-1"
+
+          # stupid ass workaround for discord mute bind
+          # https://github.com/hyprwm/Hyprland/discussions/10351#discussioncomment-13181422
+          ",F8, focuswindow, class:^(discord)$"
+          ",F8, sendshortcut,,F8, class:^(discord)$"
+          ",F8, focuscurrentorlast"
         ];
 
         bindm = [

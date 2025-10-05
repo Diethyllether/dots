@@ -33,7 +33,14 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
-      osu-lazer-bin
+      btop
+      timg
+      slurp
+      grim
+      wl-clipboard
+      gh
+      pavucontrol
+      nautilus
       discord
       wofi
       hyprpaper
